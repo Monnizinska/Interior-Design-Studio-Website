@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Projekt strony</title>
+
+    <!--  LINKI DO FONT AWESOME  -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- LINK DO STYLI-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- GOOGLE FONTS -->
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- NAV START -->
+
+    <nav id="main-nav">
+
+        <label for="drop" class="toggle">Menu</label>
+        <input type="checkbox" id="drop" />
+
+        <ul>
+            <li><a class="scroll" href="#section-about">about</a></li>
+            <li><a class="scroll" href="#portfolio">portfolio</a></li>
+            <li><a class="scroll" href="#contact-us">contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- NAV END -->
+
+
+    <!--  SLIDER START -->
+
+    <div class="slideshow-container">
+        
+        <div id="logo">Interior Design <br> Studio</div>
+        
+        <div class="mySlides">
+            <img src="img/slider-1.jpg" class="slide">
+        </div>
+
+        <div class="mySlides">
+            <img src="img/slider-2.jpg" class="slide">
+        </div>
+
+        <div class="mySlides">
+            <img src="img/slider-3.jpg" class="slide">
+        </div>
+
+        <div class="mySlides">
+            <img src="img/slider-4.jpg" class="slide">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="dot-box">
+            <span class="dot" onclick="currentSlide(1)" id="firstPhoto"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
+    </div>
+
+
+
+
+    <!--  SLIDER END  -->
+
+    <!-- SECTION ABOUT -->
+
+    <section id="section-about">
+        <div class="about">
+            <h2>ABOUT</h2>
+            <p>This paragraph is a great pleace to wrote about your projects, company, whatever you want. This paragraph is a great pleace to wrote about your projects, company, whatever you want. </p>
+            <h4 id="meet">MEET OUR TEAM</h4>
+        </div>
+
+        <div id="team">
+            <div id="steven" class="team"><img src="img/team-1.jpg" alt="Steven-photo">
+                <h3>Steven</h3>
+                <h4>Interior Designer</h4>
+                <p>This paragraph is a great pleace to wrote about your projects, company, whatever you want. This paragraph is a great pleace to wrote about your projects, company, whatever you want. This paragraph is a great pleace to wrote about your projects, company, whatever you want.</p>
+            </div>
+            <div id="sonja" class="team"><img src="img/team-2.jpg" alt="Sonja-photo">
+                <h3>Sonya</h3>
+                <h4>Interior Designer</h4>
+                <p>This paragraph is a great pleace to wrote about your projects, company, whatever you want. This paragraph is a great pleace to wrote about your projects, company, whatever you want. This paragraph is a great pleace to wrote about your projects, company, whatever you want.</p>
+            </div>
+            <div id="dolorez" class="team"><img src="img/team-3.jpg" alt="Dolorez-photo">
+                <h3>Dolorez</h3>
+                <h4>Textille Designer</h4>
+                <p>This paragraph is a great pleace to wrote about your projects, company, whatever you want. This paragraph is a great pleace to wrote about your projects, company, whatever you want. This paragraph is a great pleace to wrote about your projects, company, whatever you want.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT END -->
+
+    <!--  SECTION PORTFOLIO START -->
+
+    <section id="portfolio" class="portfolio-section">
+        <h2>Portfolio</h2>
+        <fieldset id="portfolio-box">
+
+
+            <div id="portfolio-image-1" class="portfolio-image">
+                <div class="portfolio-item-mask">
+                    <i class="fa fa-search"></i>
+                    <div class="watch">watch this<br>project</div>
+                </div>
+
+            </div>
+
+            <div id="portfolio-image-2" class="portfolio-image">
+                <div class="portfolio-item-mask">
+                    <i class="fa fa-search"></i>
+                    <div class="watch">watch this<br>project</div>
+                </div>
+            </div>
+
+            <div id="portfolio-image-3" class="portfolio-image">
+                <div class="portfolio-item-mask">
+                    <i class="fa fa-search"></i>
+                    <div class="watch">watch this<br>project</div>
+                </div>
+            </div>
+
+            <div id="portfolio-image-4" class="portfolio-image">
+                <div class="portfolio-item-mask">
+                    <i class="fa fa-search"></i>
+                    <div class="watch">watch this<br>project</div>
+                </div>
+            </div>
+
+            <div id="portfolio-image-5" class="portfolio-image">
+                <div class="portfolio-item-mask">
+                    <i class="fa fa-search"></i>
+                    <div class="watch">watch this<br>project</div>
+                </div>
+            </div>
+
+            <div id="portfolio-image-6" class="portfolio-image">
+                <div class="portfolio-item-mask">
+                    <i class="fa fa-search"></i>
+                    <div class="watch">watch this<br>project</div>
+                </div>
+            </div>
+
+        </fieldset>
+    </section>
+
+
+    <!--  SECTION PORTFOLIO END  -->
+
+
+    <!--  SECTION CONTACT START  -->
+
+    <section id="contact-us">
+        <img src="img/section-form.jpg" alt="like-home">
+        <form>
+            <h2>contact us</h2>
+            <div id="contact-box">
+                <input type="text" placeholder=" Name & Surname">
+                <input type="text" placeholder=" e-mail">
+            </div>
+            <textarea type="text" placeholder=" Message"></textarea>
+            <button>Send</button>
+        </form>
+    </section>
+
+    <!--  SECTION CONTACT END  -->
+
+    <!--  SECTION FOOTER START  -->
+    <footer id="footer">
+
+        <address><p> Address:<br>Piękna 123<br>00-120 Warszawa<br>    <br>Telephone number:<br>886296542</p></address>
+
+        <div id="social-media">
+            <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+        </div>
+        <hr>
+
+        <p id="end">© 2018, All rights reserved</p>
+
+    </footer>
+
+    <!-- SECTION FOOTER END  -->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+
+    <script src="js/scroll.js"></script>
+    <script src="js/slider.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,235 @@
+/* Responsive Styles Start */
+
+@media (max-width: 767px) {
+    body{
+        letter-spacing: 0.75px;
+    }
+    /*	Responsive Main Menu */
+    #main-nav>ul>li {
+        width: 80%;
+    }
+    #main-nav .toggle {
+        width: 80%;
+    }
+    /*  Responsive About  */
+    #section-about {
+        height: auto;
+        font-size: 13px
+    }
+    #section-about #team #sonja {
+        margin: 70px 0;
+    }
+    #section-about #team #dolorez {
+        margin: 70px 0;
+    }
+    #logo {
+        margin-left: 10px;
+        margin-top: 20%;
+        padding: 20px;
+        font-size: 16px;
+    }
+    #section-about .about>p {
+        margin-left: 60px;
+    }
+    #section-about #team .team {
+        display: block;
+        width: 100%;
+    }
+    #section-about #team #sonja {
+        margin: 100px 0;
+    }
+    #section-about #team #dolorez {
+        margin: 100px 0;
+    }
+    /*  Portfolio Responsive  */
+    #portfolio {
+        height: auto;
+    }
+    #portfolio-box {
+        margin: 10px;
+        padding: 0;
+    }
+    #portfolio-box>.portfolio-image {
+        width: 45vw;
+        background-size: cover;
+        background-position: bottom;
+    }
+    /*  Contact Responsive  */
+    #contact-us img,
+    form {
+        display: block;
+        width: 70%;
+        margin: 0;
+    }
+    #contact-us {
+        height: 165vw;
+    }
+    #contact-us img {
+        margin-left: 15%;
+    }
+    form>#contact-box>input {
+        margin: 5% 20%;
+        display: block;
+        width: 100%;
+    }
+    form>textarea,
+    input {
+        border: solid 0.5px rgba(2, 2, 2, 0.5);
+    }
+    form>textarea {
+        margin-left: 20%;
+        width: 100%;
+    }
+    form>button {
+        width: 25%;
+        margin-left: 60%;
+    }
+    #footer {
+        height: auto;
+    }
+    #footer>#social-media {
+        margin: 5% 30%;
+    }
+    #footer>#social-media>.icon {
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+    }
+    .fa-facebook-f, .fa-twitter, .fa-instagram {
+        font-size: 20px;
+    }
+
+    
+    #footer> p{
+        font-size: 10px;
+    }
+    address{
+        font-size: 13px;
+    }
+}
+
+@media (orientation:landscape) {
+    #section-about {
+        height: auto;
+    }
+    #contact-us {
+        height: 110vw;
+    }
+    #footer {
+        height: 45vw;
+    }
+}
+
+@media (max-width: 992px) {
+    #main-nav .toggle {
+        display: block;
+        background-color: #fff;
+        padding: 0 3vw;
+        color: #168776;
+        font-size: 1.5em;
+        line-height: 60px;
+        text-decoration: none;
+        border: none;
+        text-align: right;
+    }
+    #main-nav ul {
+        display: none;
+    }
+    #main-nav #drop:checked+ul {
+        display: block;
+    }
+    #main-nav>ul>li {
+        display: block;
+        z-index: 10;
+        position: static;
+        text-align: right;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    /*	Responsive About Section */
+    #section-about {
+        height: auto;
+        width: 100%;
+    }
+    #section-about #team .team img {
+        width: 35vh;
+    }
+    #meet {
+        text-align: center;
+        font-size: 1.5em;
+    }
+    #section-about .about>p {
+        margin: 80px;
+    }
+    #section-about #team .team {
+        display: inline-block;
+        width: 49%;
+    }
+    #section-about #team #steven {
+        top: 0;
+    }
+    #section-about #team #dolorez {
+        margin-top: 15%;
+        margin-left: 25%;
+    }
+    /*	Responsive Portfolio Section */
+    #portfolio {
+        height: 155vw;
+    }
+    #portfolio-box>.portfolio-image {
+        padding: 10%;
+        margin: 0;
+    }
+    #portfolio-box {
+        margin: -2px;
+    }
+    #portfolio-box>.portfolio-image>.portfolio-item-mask {
+        margin-top: -24%;
+        margin-left: -6.5vw;
+        padding: 0;
+        width: 33vw;
+    }
+    /*	Responsive Contact Section */
+    #contact-us img,
+    form {
+        display: block;
+        width: 70%;
+        margin: 0;
+    }
+    form {
+        margin-left: 16%;
+    }
+    #contact-us img {
+        margin-left: 15%;
+    }
+    form>#contact-box>input {
+        display: inline-block;
+        width: 47.5%;
+    }
+    #contact-us {
+        height: 100vw;
+    }
+    /*  Responsive Footer  */
+    #footer {
+        height: 50vh;
+    }
+    #footer>#social-media {
+        margin: 5px 45%;
+    }
+}
+
+@media (min-width: 993px) {
+    #main-nav {
+        font-size: 22px;
+    }
+    #section-about {
+        height: 75vw;
+    }
+    #contact-us {
+        height: 80vh;
+    }
+    #footer {
+        height: 30vh;
+    }
+}
